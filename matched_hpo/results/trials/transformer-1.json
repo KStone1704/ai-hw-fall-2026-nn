@@ -1,0 +1,106 @@
+{
+  "model": "transformer",
+  "trial": 1,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0,
+  "selected_epoch": 8,
+  "best_validation": {
+    "loss": 0.2183424560546875,
+    "correct": 4646,
+    "total": 5000,
+    "accuracy": 0.9292
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "online_train_loss": 1.4443055397727274,
+      "online_train_accuracy": 0.5077090909090909,
+      "validation": {
+        "loss": 0.946809375,
+        "correct": 3420,
+        "total": 5000,
+        "accuracy": 0.684
+      }
+    },
+    {
+      "epoch": 2,
+      "online_train_loss": 0.8523857244318181,
+      "online_train_accuracy": 0.7167272727272728,
+      "validation": {
+        "loss": 0.62699228515625,
+        "correct": 3945,
+        "total": 5000,
+        "accuracy": 0.789
+      }
+    },
+    {
+      "epoch": 3,
+      "online_train_loss": 0.6245345170454546,
+      "online_train_accuracy": 0.7989090909090909,
+      "validation": {
+        "loss": 0.46084296875,
+        "correct": 4276,
+        "total": 5000,
+        "accuracy": 0.8552
+      }
+    },
+    {
+      "epoch": 4,
+      "online_train_loss": 0.48356644176136365,
+      "online_train_accuracy": 0.8482545454545455,
+      "validation": {
+        "loss": 0.3573401123046875,
+        "correct": 4447,
+        "total": 5000,
+        "accuracy": 0.8894
+      }
+    },
+    {
+      "epoch": 5,
+      "online_train_loss": 0.3884100852272727,
+      "online_train_accuracy": 0.8787090909090909,
+      "validation": {
+        "loss": 0.2978427734375,
+        "correct": 4540,
+        "total": 5000,
+        "accuracy": 0.908
+      }
+    },
+    {
+      "epoch": 6,
+      "online_train_loss": 0.32463277698863635,
+      "online_train_accuracy": 0.8992545454545454,
+      "validation": {
+        "loss": 0.2586422119140625,
+        "correct": 4599,
+        "total": 5000,
+        "accuracy": 0.9198
+      }
+    },
+    {
+      "epoch": 7,
+      "online_train_loss": 0.2791024502840909,
+      "online_train_accuracy": 0.9128909090909091,
+      "validation": {
+        "loss": 0.232454638671875,
+        "correct": 4629,
+        "total": 5000,
+        "accuracy": 0.9258
+      }
+    },
+    {
+      "epoch": 8,
+      "online_train_loss": 0.24894932528409092,
+      "online_train_accuracy": 0.9223454545454546,
+      "validation": {
+        "loss": 0.2183424560546875,
+        "correct": 4646,
+        "total": 5000,
+        "accuracy": 0.9292
+      }
+    }
+  ],
+  "training_seconds": 25.859218667028472,
+  "checkpoint": "checkpoints/transformer-1.pt",
+  "device": "mps"
+}

@@ -1,0 +1,106 @@
+{
+  "model": "cnn",
+  "trial": 3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "selected_epoch": 8,
+  "best_validation": {
+    "loss": 0.04463788452148437,
+    "correct": 4937,
+    "total": 5000,
+    "accuracy": 0.9874
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "online_train_loss": 0.36776107954545456,
+      "online_train_accuracy": 0.8935090909090909,
+      "validation": {
+        "loss": 0.1250727783203125,
+        "correct": 4817,
+        "total": 5000,
+        "accuracy": 0.9634
+      }
+    },
+    {
+      "epoch": 2,
+      "online_train_loss": 0.08752638494318182,
+      "online_train_accuracy": 0.9740727272727273,
+      "validation": {
+        "loss": 0.08085297241210937,
+        "correct": 4884,
+        "total": 5000,
+        "accuracy": 0.9768
+      }
+    },
+    {
+      "epoch": 3,
+      "online_train_loss": 0.057393381569602275,
+      "online_train_accuracy": 0.9821818181818182,
+      "validation": {
+        "loss": 0.06377559814453125,
+        "correct": 4907,
+        "total": 5000,
+        "accuracy": 0.9814
+      }
+    },
+    {
+      "epoch": 4,
+      "online_train_loss": 0.04598895152698863,
+      "online_train_accuracy": 0.9857636363636364,
+      "validation": {
+        "loss": 0.05794868774414062,
+        "correct": 4923,
+        "total": 5000,
+        "accuracy": 0.9846
+      }
+    },
+    {
+      "epoch": 5,
+      "online_train_loss": 0.038615451882102275,
+      "online_train_accuracy": 0.9877090909090909,
+      "validation": {
+        "loss": 0.052639886474609376,
+        "correct": 4932,
+        "total": 5000,
+        "accuracy": 0.9864
+      }
+    },
+    {
+      "epoch": 6,
+      "online_train_loss": 0.031607626065340906,
+      "online_train_accuracy": 0.9901272727272727,
+      "validation": {
+        "loss": 0.04774819946289063,
+        "correct": 4935,
+        "total": 5000,
+        "accuracy": 0.987
+      }
+    },
+    {
+      "epoch": 7,
+      "online_train_loss": 0.028018077503551137,
+      "online_train_accuracy": 0.9909818181818182,
+      "validation": {
+        "loss": 0.048903076171875,
+        "correct": 4924,
+        "total": 5000,
+        "accuracy": 0.9848
+      }
+    },
+    {
+      "epoch": 8,
+      "online_train_loss": 0.024315520685369317,
+      "online_train_accuracy": 0.9925454545454545,
+      "validation": {
+        "loss": 0.04463788452148437,
+        "correct": 4937,
+        "total": 5000,
+        "accuracy": 0.9874
+      }
+    }
+  ],
+  "training_seconds": 14.162641957984306,
+  "checkpoint": "checkpoints/cnn-3.pt",
+  "device": "mps"
+}
