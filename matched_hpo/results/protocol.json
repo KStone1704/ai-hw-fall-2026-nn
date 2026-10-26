@@ -1,0 +1,82 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "split_method": "seed-42 random permutation of the official training split; no k-fold",
+  "train_indices_sha256": "5a90776050dd386793d0cdc11f2d2eb4fbe8eb37f61a376d4228275e5a1fb0c1",
+  "validation_indices_sha256": "a26af046450eeeac4ef09b98508d79c0dd47c6c4ba416a2da3a75003340369bb",
+  "class_counts": {
+    "train": [
+      5441,
+      6190,
+      5477,
+      5600,
+      5346,
+      5000,
+      5422,
+      5710,
+      5347,
+      5467
+    ],
+    "validation": [
+      482,
+      552,
+      481,
+      531,
+      496,
+      421,
+      496,
+      555,
+      504,
+      482
+    ]
+  },
+  "normalization": {
+    "mean": 0.13067043953945248,
+    "std": 0.30812228107625567,
+    "correction": 0,
+    "fitted_on": "55000 training images only",
+    "pixels": 43120000,
+    "accumulation_dtype": "float64",
+    "model_input_dtype": "float32"
+  },
+  "parameters": {
+    "mlp": 100975,
+    "cnn": 101129,
+    "transformer": 100970
+  },
+  "search": {
+    "learning_rates": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "weight_decays": [
+      0.0,
+      0.0001
+    ],
+    "trials_per_model": 6,
+    "max_epochs": 8,
+    "patience": 3,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "batch_size": 256,
+    "scheduler": null,
+    "augmentation": false,
+    "selection": "highest validation correct count, then lowest validation loss; earlier trial/epoch on exact ties",
+    "architecture_search": false,
+    "precision": "float32"
+  },
+  "test_policy": "Do not load test data during tuning. Lock all three winners before final evaluation. Baseline test results were seen previously.",
+  "source_sha256": {
+    "models.py": "93fe569ae3747d2044f57c80ce4651ce68ab2533d00c9b82ce3fd158303b2aae",
+    "experiment.py": "8e24f209c08de6037d9346c1bad972b255689458ab46cca1635b61bf4ef76ac8"
+  }
+}

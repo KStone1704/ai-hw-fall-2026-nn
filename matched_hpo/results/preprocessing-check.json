@@ -1,0 +1,8 @@
+{
+  "histogram_mean": 0.13067043953945212,
+  "histogram_std": 0.3081222810762666,
+  "normalized_training_mean": -7.903584581372752e-09,
+  "normalized_training_std": 1.0000000455565146,
+  "passed": true,
+  "test_split_loaded": false
+}
