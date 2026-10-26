@@ -1,0 +1,50 @@
+{
+  "model": "cnn",
+  "seed": 42,
+  "split": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "epochs": 3,
+  "selected_epoch": 3,
+  "best_validation_accuracy": 0.9802,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "augmentation": false,
+  "normalization_mean_std": [
+    0.1307,
+    0.3081
+  ],
+  "parameters": 105866,
+  "training_seconds": 39.04774525004905,
+  "device": "cpu",
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "torchvision": "0.29.1",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.37051884748718955,
+      "train_accuracy": 0.8968545454545455,
+      "validation_loss": 0.1307283275604248,
+      "validation_accuracy": 0.9626
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.08728863080848347,
+      "train_accuracy": 0.9740181818181818,
+      "validation_loss": 0.07752328701019287,
+      "validation_accuracy": 0.9772
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.05775093262737448,
+      "train_accuracy": 0.9823636363636363,
+      "validation_loss": 0.07071157426834107,
+      "validation_accuracy": 0.9802
+    }
+  ]
+}

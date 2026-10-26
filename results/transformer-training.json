@@ -1,0 +1,50 @@
+{
+  "model": "transformer",
+  "seed": 42,
+  "split": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "epochs": 3,
+  "selected_epoch": 3,
+  "best_validation_accuracy": 0.935,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "augmentation": false,
+  "normalization_mean_std": [
+    0.1307,
+    0.3081
+  ],
+  "parameters": 72074,
+  "training_seconds": 63.69185458403081,
+  "device": "cpu",
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "torchvision": "0.29.1",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0598771041263233,
+      "train_accuracy": 0.6454181818181818,
+      "validation_loss": 0.5326260879516601,
+      "validation_accuracy": 0.831
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4465889676917683,
+      "train_accuracy": 0.8621636363636364,
+      "validation_loss": 0.2729585033416748,
+      "validation_accuracy": 0.9142
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.28625794825553896,
+      "train_accuracy": 0.9117454545454545,
+      "validation_loss": 0.20559951553344727,
+      "validation_accuracy": 0.935
+    }
+  ]
+}
